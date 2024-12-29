@@ -1,2 +1,3 @@
 cmake_minimum_required(VERSION 3.20)
-add_subdirectory(example_lib_1)
+add_subdirectory(ExampleLib1)
+add_subdirectory(ExampleLib2)

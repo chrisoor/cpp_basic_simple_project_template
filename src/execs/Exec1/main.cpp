@@ -1,5 +1,5 @@
 #include <iostream>
-#include "example_lib/example_lib.hpp"
+#include "ExampleLib1/ExampleLib1.hpp"
 
 #include <zlib.h>
 
@@ -7,9 +7,9 @@ int main()
 {
     std::cout<<"Hello, World!\n";
 
-    ExampleClass exampleClass{};
-    exampleClass.PrintHello();
-    std::cout<<exampleClass.Add(1, 2)<<"\n";
+    ExampleClass1 ExampleClass1{};
+    ExampleClass1.PrintHello();
+    std::cout<<ExampleClass1.Add(1, 2)<<"\n";
 
     printf("ZLIB VERSION: %s\n", zlibVersion());
 
